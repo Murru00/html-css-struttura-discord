@@ -22,6 +22,7 @@ header{
     border: 2px dashed black;
     
     
+    
 }
 /*HEADER-CENTER*/
 
@@ -32,6 +33,7 @@ header{
     border: 2px dashed black;
     text-align: center;
     align-content: space-between;
+    min-width: 600px;
     
     
 }
@@ -42,6 +44,7 @@ header{
     background-color: brown;
     border: 2px dashed black;
     text-align: right;
+    min-width: 300px;
    
 }
 
@@ -177,4 +180,27 @@ main{
     
     background-color: rgb(58, 112, 199);
     border: 2px dashed black;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(35, 34, 34);
+    padding: 20px;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    background-color: rgb(255, 255, 0);
+    min-height: 100px;
+    min-width: 100px;
+    justify-content: flex-start;
+}
+
+.bottone{
+    flex-grow: 1;
+    background-color: brown;
+    border: 2px dashed black;
+    text-align: right;
+    min-width: 300px;
 }
