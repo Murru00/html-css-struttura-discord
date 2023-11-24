@@ -1,0 +1,46 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*HEADER*/
+header{
+    display: flex;
+    padding: 30px;
+    background-color: cadetblue;
+    line-height: 50px;
+    
+}
+
+/*HEADER-LEFT*/
+
+.header-left{
+    
+    flex-grow: 1;
+    background-color: brown;
+    border: 2px dashed black;
+    
+    
+}
+/*HEADER-CENTER*/
+
+.header-center{
+    
+    flex-grow: 5;
+    background-color: brown;
+    border: 2px dashed black;
+    text-align: center;
+    align-content: space-between;
+    
+    
+}
+/*HEADER-RIGHT*/
+.header-right{
+    
+    flex-grow: 1;
+    background-color: brown;
+    border: 2px dashed black;
+    text-align: right;
+   
+}
