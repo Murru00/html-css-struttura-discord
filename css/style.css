@@ -84,3 +84,27 @@ main{
     min-width: 465px;
     border: 2px dashed black;
 }
+
+.reverse-layout{
+    display: flex;
+    background-color: rgb(158, 158, 158);
+    padding: 50px;
+    justify-content: center;
+}
+
+.pink-reverse{
+    display: flex;
+    background-color: rgb(208, 113, 255);
+    min-height: 400px;
+    min-width: 465px;
+    border: 2px dashed black;
+}
+
+.blue-reverse{
+    display: flex;
+    background-color: rgb(58, 58, 253);
+    min-height: 290px;
+    min-width: 700px;
+    border: 2px dashed black;
+
+}
