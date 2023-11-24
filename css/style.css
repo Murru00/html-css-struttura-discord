@@ -81,7 +81,7 @@ main{
     display: flex;
     background-color: rgb(208, 113, 255);
     min-height: 400px;
-    min-width: 465px;
+    min-width: 500px;
     border: 2px dashed black;
 }
 
@@ -96,15 +96,85 @@ main{
     display: flex;
     background-color: rgb(208, 113, 255);
     min-height: 400px;
-    min-width: 465px;
+    min-width: 500px;
     border: 2px dashed black;
 }
-
 .blue-reverse{
     display: flex;
     background-color: rgb(58, 58, 253);
     min-height: 290px;
     min-width: 700px;
     border: 2px dashed black;
+}
 
+.big-box{
+    display: flex;
+    background-color: rgb(158, 158, 158);
+    padding: 50px;
+    justify-content: center;
+}
+
+.green-box{
+    display: flex;
+    background-color: darkgreen;
+    min-height: 500px;
+    min-width: 1200px;
+    border: 2px dashed black;
+
+
+}
+
+.column{
+    display: flex;
+    padding: 50px;
+    background-color: rgb(35, 34, 34);
+    justify-content: center;
+    
+}
+
+.column-1{
+    
+    min-height: 400px;
+    min-width: 400px;
+    
+    background-color: fuchsia;
+    border: 2px dashed black;
+}
+
+.column-2{
+    
+    min-height: 400px;
+    min-width: 200px;
+    
+    background-color: rgb(58, 112, 199);
+    border: 2px dashed black;
+}
+
+
+.column-3{
+    
+    min-height: 400px;
+    min-width: 200px;
+    
+    background-color: rgb(58, 112, 199);
+    border: 2px dashed black;
+}
+
+
+.column-4{
+    
+    min-height: 400px;
+    min-width: 200px;
+    
+    background-color: rgb(58, 112, 199);
+    border: 2px dashed black;
+}
+
+.column-5{
+    
+    min-height: 400px;
+    min-width: 200px;
+    
+    background-color: rgb(58, 112, 199);
+    border: 2px dashed black;
 }
